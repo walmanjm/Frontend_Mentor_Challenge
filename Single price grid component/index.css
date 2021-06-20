@@ -111,4 +111,7 @@ strong {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
+  .btn {
+    padding: 0.5rem 3.5rem;
+  }
 }
