@@ -26,20 +26,20 @@ tags: html,css,beginner
 <body>
   <div class="container">
     <div class="col col1">
-      <p class="community">Join our community</p>
+      <h1 class="community">Join our community</h1>
       <p class="guarantee">30-day, hassle-free money back guarantee</p>
       <p class="access">Gain access to our full library of tutorial along with expert code reviews.
         <br>Perfect for any developers who are serious about honing their skills.
       </p>
     </div>
     <div class="col col2">
-      <p class="subs">Monthly Subcription</p>
+      <h1 class="subs">Monthly Subscription</h1>
       <p class="permonth"><strong>$29</strong> per month</p>
       <p class="perday">Full access for less then $1 a day</p>
-      <a href="#" class="btn">Sign Up</a>
+      <button>Sign Up</button>
     </div>
     <div class="col col3">
-      <p class="whyus">Why Us</p>
+      <h1 class="whyus">Why Us</h1>
       <p class="expert">Tutorial by industrial experts
         <br>Peer & expert code review
         <br>Coding exercises
@@ -65,7 +65,7 @@ tags: html,css,beginner
 body {
   display: grid;
   place-items: center;
-  padding: 10rem 0 10rem 0;
+  padding: 5rem 0 5rem 0;
   font-family: "Karla", sans-serif;
   background-color: hsl(204, 43%, 93%);
 }
@@ -73,85 +73,91 @@ body {
   width: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
 }
 .col1 {
-  padding: 1rem 2rem;
+  padding: 2rem;
   grid-column: 1 / 3;
   background-color: hsl(0, 0%, 100%);
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 .col2 {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 2rem;
   grid-column: 1;
   background-color: hsl(179, 62%, 43%);
   border-bottom-left-radius: 0.5rem;
 }
 .col3 {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 2rem;
   grid-column: 2;
   background-color: hsl(179, 62%, 60%);
   border-bottom-right-radius: 0.5rem;
 }
+
 .community {
   color: hsl(179, 62%, 43%);
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 1.2rem;
-  padding: 1rem 0 1rem 0;
+  padding-bottom: 1rem;
 }
 .guarantee {
-  color: hsl(71, 100%, 55%);
-  font-weight: bolder;
-  padding: 0.5rem 0 1rem 0;
+  color: hsl(71, 100%, 45%);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
 }
 .access {
   color: hsl(0, 0%, 65%);
-  font-size: 0.8rem;
-  padding: 0 0 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
 }
+
 .subs {
   color: hsl(0, 0%, 100%);
-  font-weight: bolder;
-  padding: 1rem 0 0 0;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
 .permonth {
   color: hsl(0, 0%, 100%);
-  font-size: 0.8rem;
-  padding: 0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+strong {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
 }
 .perday {
   color: hsl(0, 0%, 100%);
   font-size: 0.9rem;
-  margin-bottom: 2rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
 }
-.btn {
-  background-color: hsl(71, 100%, 55%);
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
-  font-weight: bolder;
-  padding: 0.5rem 4.5rem;
+button {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
   border-radius: 0.3rem;
+  background-color: hsl(71, 100%, 45%);
+  color: hsl(0, 0%, 100%);
 }
+
 .whyus {
   color: hsl(0, 0%, 100%);
-  font-weight: bolder;
-  padding: 1rem 0 0 0;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
 .expert {
   color: hsl(0, 0%, 100%);
-  font-size: 0.8rem;
-  padding: 1rem 0 0.5rem 0;
-}
-strong {
-  font-size: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 550px) {
   body {
     display: grid;
     place-items: center;
-    padding: 2rem 0 2rem 0;
   }
   .container {
     width: 60%;
@@ -171,5 +177,6 @@ strong {
     border-bottom-right-radius: 0.5rem;
   }
 }
+
 
 ```
