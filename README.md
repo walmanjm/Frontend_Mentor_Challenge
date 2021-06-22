@@ -1,7 +1,7 @@
 # Welcome! 👋
 ## This is some solution i made for [Frontend Mentor](https://www.frontendmentor.io) challenges,
 ## 1. Single_Price_Grid_Component
-- [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/24fda64f0ce44e520446045592b0d82bb92f261b/Single%20price%20grid%20component/README.md)
+- [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/ae5544c067fd9a0a45dbc2d1d118131fb4cf6e0e/Single%20price%20grid%20component/README.md)
 - [Single_Price_Grid_Component Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Single%20price%20grid%20component/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single%20price%20grid%20component/img/dekstop.jpeg?raw=true)
