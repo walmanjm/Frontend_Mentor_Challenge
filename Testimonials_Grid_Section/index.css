@@ -129,7 +129,7 @@ img {
   color: hsl(0, 0%, 0%);
 }
 
-@media all and (max-width: 575px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .container {
     grid-template-areas:
       "daniel"
