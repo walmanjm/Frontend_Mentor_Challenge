@@ -215,8 +215,10 @@ html {
 }
 body {
   background-color: hsl(210, 46%, 95%);
-  padding: 10rem;
   font-family: Barlow Semi Condensed;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5rem;
 }
 .container {
   display: grid;
