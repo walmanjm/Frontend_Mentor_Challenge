@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Testimonials_Grid_Section README.md](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/5a310fb6b7c020c50162b072fce2cf34b3cce9bb/Single_Price_Grid_Component/README.md)
+- Solution URL: [Single Price Grid Component README.md](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/a101ca33934ebe5b4316d9a2bc68b29628a44c48/Single_Price_Grid_Component/README.md)
 - Live Site URL: [Frontend Mentor | Single Price Grid Component](https://walmanjm.github.io/Frontend_Mentor_Challenge/Single_Price_Grid_Component/index.html)
 
 ## My process
