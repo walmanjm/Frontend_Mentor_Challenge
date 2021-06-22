@@ -7,10 +7,10 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single%20price%20grid%20component/img/dekstop.jpeg?raw=true)
 
 ## 2. Testimonials_Grid_Section
-- [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/1ae648e0471d498a49cee0afbc691ca6c5f30350/Testimonials_Grid_Section/README.md)
+- [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/README.md)
 - [Frontend_Mentor_Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Testimonials_Grid_Section/index.html)
 
-- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/img/dekstop.jpeg?raw=true)
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/solution/solution.jpeg?raw=true)
 
 ## 3. ...
 
