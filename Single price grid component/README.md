@@ -1,15 +1,51 @@
----
-title: Single price grid component
-tags: html,css,beginner
----
+# Frontend Mentor - Single price grid component solution
 
-- display `: grid;`  color `hsl(xx, xx%, xx%);` box-sizing `border-box;`
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### result
-![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single%20price%20grid%20component/img/dekstop.jpeg?raw=true)
-![mobile.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single%20price%20grid%20component/img/mobile.jpeg?raw=true)
+## Table of contents
 
-### html
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+
+### Screenshot
+
+![](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single%20price%20grid%20component/img/dekstop.jpeg?raw=true)
+
+### Links
+
+- Solution URL: [Testimonials_Grid_Section README.md](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/24fda64f0ce44e520446045592b0d82bb92f261b/Single%20price%20grid%20component/README.md)
+- Live Site URL: [Frontend Mentor | Single Price Grid Component](https://walmanjm.github.io/Frontend_Mentor_Challenge/Single%20price%20grid%20component/index.html)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- `display: grid;`
+
+### What I learned
+
+Use anything in your knowledge about html css as much as you have.
+
+#### html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +54,7 @@ tags: html,css,beginner
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Single Price</title>
+  <title>Frontend Mentor | Single Price Grid Component</title>
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -54,8 +90,7 @@ tags: html,css,beginner
 
 </html>
 ```
-
-### css
+#### css
 ```css
 * {
   box-sizing: border-box;
@@ -133,6 +168,7 @@ strong {
   font-weight: 400;
   padding-bottom: 2rem;
 }
+
 button {
   width: 100%;
   height: 2.5rem;
@@ -177,6 +213,21 @@ button {
     border-bottom-right-radius: 0.5rem;
   }
 }
-
-
 ```
+### Continued development
+
+this is knew to me but i like it, im still learning and will continue learning 
+
+### Useful resources
+
+- [w3schools](https://www.w3schools.com) - This helped for anyone who want to start to learn.
+- [3 minute read Mastering Markdown](https://guides.github.com/features/mastering-markdown) - This is an article which helped me about "Markdown"
+
+## Author
+
+- Website - [walmanjm](https://walmanjm.github.io/Frontend_Mentor_Challenge)
+- Frontend Mentor - [@walmanjm](https://www.frontendmentor.io/profile/walmanjm)
+
+## Acknowledgments
+
+looking forward for anyone to help..
