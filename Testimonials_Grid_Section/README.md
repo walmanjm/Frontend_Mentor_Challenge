@@ -403,7 +403,7 @@ this is knew to me but i like it, im still learning and will continue learning
 ## Author
 
 - Website - [walmanjm.github.io](https://walmanjm.github.io/Frontend_Mentor_Challenge)
-- Frontend Mentor - [frontendmentor.io/profile/walmanjm](https://www.frontendmentor.io/profile/walmanjm)
+- Frontend Mentor - [frontendmentor.io/walmanjm](https://www.frontendmentor.io/profile/walmanjm)
 
 ## Acknowledgments
 
