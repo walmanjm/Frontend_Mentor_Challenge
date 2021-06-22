@@ -8,10 +8,12 @@ html {
 }
 body {
   background-color: hsl(210, 46%, 95%);
-  font-family: Barlow Semi Condensed;
+  font-family: "Barlow Semi Condensed", sans-serif;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 6rem;
+  display: grid;
+  place-items: center;
 }
 .container {
   display: grid;
@@ -29,7 +31,8 @@ body {
 }
 .daniel {
   grid-area: daniel;
-  background-color: hsl(263, 55%, 52%);
+  background: url(images/bg-pattern-quotation.svg) no-repeat hsl(263, 55%, 52%);
+  background-position: 80% 0%;
 }
 .jonathan {
   grid-area: jonathan;
@@ -49,10 +52,76 @@ body {
 }
 .attribution {
   grid-area: attribution;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   text-align: center;
   color: hsl(228, 45%, 44%);
+}
+img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.header {
+  display: flex;
+}
+.m-picture {
+  border: 0.2rem solid hsl(263, 55%, 60%);
+  border-radius: 50rem;
+}
+.f-picture {
+  border: 0.2rem solid hsl(210, 46%, 95%);
+  border-radius: 50rem;
+}
+.name {
+  padding-left: 1rem;
+}
+.m-names {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 81%);
+}
+.m-graduate {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 70%);
+}
+.f-names {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(217, 19%, 35%);
+}
+.f-graduate {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(217, 19%, 50%);
+}
+.m-head {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding-top: 1rem;
+  color: hsl(0, 0%, 81%);
+}
+.m-quotes {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  color: hsl(0, 0%, 70%);
+}
+.f-head {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding-top: 1rem;
+  color: hsl(217, 19%, 35%);
+}
+.f-quotes {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  color: hsl(217, 19%, 50%);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -62,76 +131,8 @@ body {
   color: hsl(219, 29%, 14%);
   text-decoration: underline;
 }
-img {
-  height: 2.5rem;
-  width: 2.5rem;
-}
-.header {
-  display: flex;
-}
-.picture {
-  border: 0.1rem solid hsl(263, 55%, 52%);
-  border-radius: 50rem;
-}
-.name {
-  padding-left: 1rem;
-}
-.names {
-  font-size: 1rem;
-  color: hsl(210, 46%, 95%);
-}
-.graduate {
-  font-size: 0.9rem;
-  color: hsl(210, 50%, 95%);
-}
-.kira .header .name .names,
-.jeanette .header .name .names {
-  font-size: 1rem;
-  color: hsl(0, 0%, 0%);
-  font-weight: 600;
-}
-.kira .header .name .graduate,
-.jeanette .header .name .graduate {
-  font-size: 1rem;
-  color: hsl(0, 0%, 0%);
-  font-weight: 500;
-}
-.daniel-head,
-.jonathan-head,
-.patrick-head {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2rem;
-  padding-top: 1rem;
-  color: hsl(210, 46%, 95%);
-}
-.daniel-quotes,
-.jonathan-quotes,
-.patrick-quotes {
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  padding-top: 1rem;
-  color: hsl(210, 70%, 95%);
-}
-.jeanette-head,
-.kira-head {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2rem;
-  padding-top: 1rem;
-  color: hsl(0, 0%, 0%);
-}
-.jeanette-uotes,
-.kira-quotes {
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  padding-top: 1rem;
-  color: hsl(0, 0%, 0%);
-}
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 575px) {
   .container {
     grid-template-areas:
       "daniel"
