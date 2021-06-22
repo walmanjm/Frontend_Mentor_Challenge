@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/img/dekstop.jpeg?raw=true)
+![](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/design/desktop-design.jpg?raw=true)
 
 ### Links
 
@@ -61,8 +61,10 @@ Use anything in your knowledge about html css as much as you have.
     />
     <title>Frontend Mentor | Testimonials_Grid_Section</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Roboto:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -71,19 +73,23 @@ Use anything in your knowledge about html css as much as you have.
       <div class="testimoni daniel">
         <div class="header">
           <div class="pictures">
-            <img class="picture" src="images/image-daniel.jpg" alt="" />
+            <img
+              class="m-picture"
+              src="images/image-daniel.jpg"
+              alt="picture of Daniel"
+            />
           </div>
           <div class="name">
-            <h1 class="names">Daniel Clifford</h1>
-            <p class="graduate">Verified Graduate</p>
+            <h1 class="m-names">Daniel Clifford</h1>
+            <p class="m-graduate">Verified Graduate</p>
           </div>
         </div>
-        <h1 class="daniel-head">
+        <h1 class="m-head">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
           got every penny’s worth.
         </h1>
-        <p class="daniel-quotes">
+        <p class="m-quotes">
           “ I was an EMT for many years before I joined the bootcamp. I’ve been
           looking to make a transition and have heard some people who had an
           amazing experience here. I signed up for the free intro course and
@@ -97,17 +103,21 @@ Use anything in your knowledge about html css as much as you have.
       <div class="testimoni jonathan">
         <div class="header">
           <div class="pictures">
-            <img class="picture" src="images/image-jonathan.jpg" alt="" />
+            <img
+              class="m-picture"
+              src="images/image-jonathan.jpg"
+              alt="picture of Jonathan"
+            />
           </div>
           <div class="name">
-            <h1 class="names">Jonathan Walters</h1>
-            <p class="graduate">Verified Graduate</p>
+            <h1 class="m-names">Jonathan Walters</h1>
+            <p class="m-graduate">Verified Graduate</p>
           </div>
         </div>
-        <h1 class="jonathan-head">
+        <h1 class="m-head">
           The team was very supportive and kept me motivated
         </h1>
-        <p class="jonathan-quotes">
+        <p class="m-quotes">
           “ I started as a total newbie with virtually no coding skills. I now
           work as a mobile engineer for a big company. This was one of the best
           investments I’ve made in myself. ”
@@ -117,17 +127,19 @@ Use anything in your knowledge about html css as much as you have.
       <div class="testimoni jeanette">
         <div class="header">
           <div class="pictures">
-            <img class="picture" src="images/image-jeanette.jpg" alt="" />
+            <img
+              class="f-picture"
+              src="images/image-jeanette.jpg"
+              alt="picture of Jeanette"
+            />
           </div>
           <div class="name">
-            <h1 class="names">Jeanette Harmon</h1>
-            <p class="graduate">Verified Graduate</p>
+            <h1 class="f-names">Jeanette Harmon</h1>
+            <p class="f-graduate">Verified Graduate</p>
           </div>
         </div>
-        <h1 class="jeanette-head">
-          An overall wonderful and rewarding experience
-        </h1>
-        <p class="jeanette-uotes">
+        <h1 class="f-head">An overall wonderful and rewarding experience</h1>
+        <p class="f-quotes">
           “ Thank you for the wonderful experience! I now have a job I really
           enjoy, and make a good living while doing something I love. ”
         </p>
@@ -136,19 +148,23 @@ Use anything in your knowledge about html css as much as you have.
       <div class="testimoni patrick">
         <div class="header">
           <div class="pictures">
-            <img class="picture" src="images/image-patrick.jpg" alt="" />
+            <img
+              class="m-picture"
+              src="images/image-patrick.jpg"
+              alt="picture of Patrick"
+            />
           </div>
           <div class="name">
-            <h1 class="names">Patrick Abrams</h1>
-            <p class="graduate">Verified Graduate</p>
+            <h1 class="m-names">Patrick Abrams</h1>
+            <p class="m-graduate">Verified Graduate</p>
           </div>
         </div>
-        <h1 class="patrick-head">
+        <h1 class="m-head">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
           easy.
         </h1>
-        <p class="patrick-quotes">
+        <p class="m-quotes">
           “ The staff seem genuinely concerned about my progress which I find
           really refreshing. The program gave me the confidence necessary to be
           able to go out in the world and present myself as a capable junior
@@ -161,17 +177,21 @@ Use anything in your knowledge about html css as much as you have.
       <div class="testimoni kira">
         <div class="header">
           <div class="pictures">
-            <img class="picture" src="images/image-kira.jpg" alt="" />
+            <img
+              class="f-picture"
+              src="images/image-kira.jpg"
+              alt="picture of Kira"
+            />
           </div>
           <div class="name">
-            <h1 class="names">Kira Whittle</h1>
-            <p class="graduate">Verified Graduate</p>
+            <h1 class="f-names">Kira Whittle</h1>
+            <p class="f-graduate">Verified Graduate</p>
           </div>
         </div>
-        <h1 class="kira-head">
+        <h1 class="f-head">
           Such a life-changing experience. Highly recommended!
         </h1>
-        <p class="kira-quotes">
+        <p class="f-quotes">
           “ Before joining the bootcamp, I’ve never written a line of code. I
           needed some structure from professionals who can help me learn
           programming step by step. I was encouraged to enroll by a former
@@ -194,7 +214,7 @@ Use anything in your knowledge about html css as much as you have.
         <br />
         Coded by
         <a
-          href="https://github.com/walmanjm/Frontend_Mentor_Challenge"
+          href="https://walmanjm.github.io/Frontend_Mentor_Challenge"
           target="_blank"
           >walmanjm.
         </a>
@@ -215,10 +235,12 @@ html {
 }
 body {
   background-color: hsl(210, 46%, 95%);
-  font-family: Barlow Semi Condensed;
+  font-family: "Barlow Semi Condensed", sans-serif;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 6rem;
+  display: grid;
+  place-items: center;
 }
 .container {
   display: grid;
@@ -236,7 +258,8 @@ body {
 }
 .daniel {
   grid-area: daniel;
-  background-color: hsl(263, 55%, 52%);
+  background: url(images/bg-pattern-quotation.svg) no-repeat hsl(263, 55%, 52%);
+  background-position: 80% 0%;
 }
 .jonathan {
   grid-area: jonathan;
@@ -256,10 +279,76 @@ body {
 }
 .attribution {
   grid-area: attribution;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   text-align: center;
   color: hsl(228, 45%, 44%);
+}
+img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.header {
+  display: flex;
+}
+.m-picture {
+  border: 0.2rem solid hsl(263, 55%, 60%);
+  border-radius: 50rem;
+}
+.f-picture {
+  border: 0.2rem solid hsl(210, 46%, 95%);
+  border-radius: 50rem;
+}
+.name {
+  padding-left: 1rem;
+}
+.m-names {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 81%);
+}
+.m-graduate {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 70%);
+}
+.f-names {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(217, 19%, 35%);
+}
+.f-graduate {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(217, 19%, 50%);
+}
+.m-head {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding-top: 1rem;
+  color: hsl(0, 0%, 81%);
+}
+.m-quotes {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  color: hsl(0, 0%, 70%);
+}
+.f-head {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding-top: 1rem;
+  color: hsl(217, 19%, 35%);
+}
+.f-quotes {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  color: hsl(217, 19%, 50%);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -269,76 +358,8 @@ body {
   color: hsl(219, 29%, 14%);
   text-decoration: underline;
 }
-img {
-  height: 2.5rem;
-  width: 2.5rem;
-}
-.header {
-  display: flex;
-}
-.picture {
-  border: 0.1rem solid hsl(263, 55%, 52%);
-  border-radius: 50rem;
-}
-.name {
-  padding-left: 1rem;
-}
-.names {
-  font-size: 1rem;
-  color: hsl(210, 46%, 95%);
-}
-.graduate {
-  font-size: 0.9rem;
-  color: hsl(210, 50%, 95%);
-}
-.kira .header .name .names,
-.jeanette .header .name .names {
-  font-size: 1rem;
-  color: hsl(0, 0%, 0%);
-  font-weight: 600;
-}
-.kira .header .name .graduate,
-.jeanette .header .name .graduate {
-  font-size: 1rem;
-  color: hsl(0, 0%, 0%);
-  font-weight: 500;
-}
-.daniel-head,
-.jonathan-head,
-.patrick-head {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2rem;
-  padding-top: 1rem;
-  color: hsl(210, 46%, 95%);
-}
-.daniel-quotes,
-.jonathan-quotes,
-.patrick-quotes {
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  padding-top: 1rem;
-  color: hsl(210, 70%, 95%);
-}
-.jeanette-head,
-.kira-head {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2rem;
-  padding-top: 1rem;
-  color: hsl(0, 0%, 0%);
-}
-.jeanette-uotes,
-.kira-quotes {
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  padding-top: 1rem;
-  color: hsl(0, 0%, 0%);
-}
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 575px) {
   .container {
     grid-template-areas:
       "daniel"
@@ -381,8 +402,8 @@ this is knew to me but i like it, im still learning and will continue learning
 
 ## Author
 
-- Website - [walmanjm](https://walmanjm.github.io/Frontend_Mentor_Challenge)
-- Frontend Mentor - [@walmanjm](https://www.frontendmentor.io/profile/walmanjm)
+- Website - [walmanjm.github.io](https://walmanjm.github.io/Frontend_Mentor_Challenge)
+- Frontend Mentor - [frontendmentor.io/profile/walmanjm](https://www.frontendmentor.io/profile/walmanjm)
 
 ## Acknowledgments
 
