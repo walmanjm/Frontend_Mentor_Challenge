@@ -12,7 +12,7 @@
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/solution/solution.jpeg?raw=true)
 
-## 3. ...
+## 3. ..
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.
   
