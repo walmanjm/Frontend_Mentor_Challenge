@@ -1,0 +1,268 @@
+:root {
+  --strong_cyan: hsl(171, 66%, 44%);
+  --light_blue: hsl(233, 100%, 69%);
+  --dark_grayish_blue: hsl(210, 10%, 33%);
+  --grayish_blue: hsl(201, 11%, 66%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 1440px;
+}
+h1,
+h2,
+h3 {
+  color: var(--dark_grayish_blue);
+  padding-bottom: 1rem;
+  text-align: center;
+  max-width: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  color: var(--grayish_blue);
+  font-size: smaller;
+  padding-bottom: 2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  max-width: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  padding-top: 5rem;
+  background: url("images/bg-header-desktop.png") center top no-repeat;
+}
+.header-logo {
+  padding-bottom: 2rem;
+}
+.header-logo img {
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 50rem;
+  margin: 0 0.5rem;
+  color: #ffffff;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: smaller;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-cyan {
+  background: var(--strong_cyan);
+  box-shadow: 0.2rem 0.2rem hsl(171, 67%, 39%);
+}
+.btn-blue {
+  background: var(--light_blue);
+  box-shadow: 0.2rem 0.2rem hsl(233, 72%, 62%);
+}
+
+/* snippets */
+.sippets-text {
+  padding-bottom: 2rem;
+}
+.snippets-cards {
+  display: flex;
+}
+.snippets-cards img {
+  margin-left: -2rem;
+  max-width: 40rem;
+  display: block;
+}
+.snippets-cards-list {
+  padding-top: 3rem;
+  padding-left: 5rem;
+  width: 25rem;
+}
+.snippets-cards-list h3,
+.snippets-cards-list p {
+  text-align: left;
+}
+
+/* access */
+.access {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.access-device img {
+  max-width: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+
+/* workflow */
+.workflow-text {
+  margin-top: 2rem;
+  text-align: center;
+  max-width: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+.workflow-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.workflow-list div {
+  width: 25rem;
+  padding: 2rem 2rem 0 2rem;
+}
+.workflow-list h3 {
+  margin-top: 1rem;
+}
+
+/* logo */
+
+.logo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-list img {
+  margin: 5rem 2rem 5rem 2rem;
+}
+
+/* footer */
+.footer {
+  background-color: hsl(0, 0%, 97%);
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0 1rem 0;
+}
+.footer-logo img {
+  width: 3rem;
+  height: 3rem;
+}
+.footer-logo {
+  padding: 0 0 0 10rem;
+}
+.footer-nav {
+  display: flex;
+}
+.footer-nav ul {
+  list-style: none;
+  color: hsl(202, 7%, 55%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-nav li {
+  margin: 0 0 1rem 6rem;
+  cursor: pointer;
+}
+.footer-nav li:hover {
+  color: hsl(171, 66%, 44%);
+}
+.footer-sosmed {
+  margin-left: 15rem;
+}
+.footer-sosmed ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-sosmed li {
+  list-style: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.footer-sosmed img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* attribution */
+.attribution {
+  background-color: hsl(0, 0%, 97%);
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: hsl(219, 29%, 14%);
+  text-decoration: underline;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+  h1,
+  h2,
+  h3,
+  p {
+    max-width: 20rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header {
+    padding-top: 2rem;
+    background: url("images/bg-header-mobile.png") center top no-repeat;
+    background: cover;
+  }
+
+  .footer,
+  .footer-sosmed,
+  .footer-nav,
+  .logo-list,
+  .workflow-list,
+  .snippets-cards,
+  .snippets-cards-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .snippets-cards img,
+  .access-device img {
+    max-width: 20rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .snippets-cards-list h3,
+  .snippets-cards-list p {
+    text-align: center;
+  }
+  .logo-list img {
+    margin: 2rem 0rem;
+  }
+  .footer-logo,
+  .footer-nav li,
+  .footer-sosmed li {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-nav li,
+  .footer-sosmed li {
+    padding: 1rem;
+  }
+  .footer-logo {
+    padding: 2rem 0 0 0;
+  }
+  .footer-sosmed img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
