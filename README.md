@@ -1,13 +1,13 @@
 # Welcome! 👋
 ## This is some solution i made for [Frontend Mentor](https://www.frontendmentor.io) challenges,
 ## 1. Single_Price_Grid_Component
-- [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/e125aa8c776d1e26f05c040bdd3142b20c979696/Single_Price_Grid_Component/README.md)
+- [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/3332664cddf1c08dad7002528a194a7f34c610a7/Single_Price_Grid_Component/README.md)
 - [Single_Price_Grid_Component Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Single_Price_Grid_Component/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single_Price_Grid_Component/solution/solution.jpeg?raw=true)
 
 ## 2. Testimonials_Grid_Section
-- [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/README.md)
+- [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/3332664cddf1c08dad7002528a194a7f34c610a7/Testimonials_Grid_Section/README.md)
 - [Frontend_Mentor_Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Testimonials_Grid_Section/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/solution/solution.jpeg?raw=true)
