@@ -14,9 +14,7 @@
 
 ## 3. ...
 
-<details>
-  
-<summary>Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.</summary>
+Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.
   
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
@@ -83,4 +81,4 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-<details>
+
