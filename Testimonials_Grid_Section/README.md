@@ -30,7 +30,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Testimonials_Grid_Section README.md](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/README.md)
 - Live Site URL: [Frontend Mentor | Testimonials_Grid_Section](https://walmanjm.github.io/Frontend_Mentor_Challenge/Testimonials_Grid_Section/index.html)
 
 ## My process
