@@ -67,25 +67,27 @@ Use anything in your knowledge about html css as much as you have.
       href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/c08e1bd072.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header>
-      <div class="header">
-        <div class="header-logo">
-          <img src="images/logo.svg" alt="logo" />
-        </div>
-        <div class="header-text">
-          <h1>A history of everything you copy</h1>
-          <p>
-            Clipboard allows you to track and organize everything you copy.
-            Instantly access your clipboard on all your devices.
-          </p>
-        </div>
-        <div class="btn">
-          <button class="btn btn-cyan">Download for iOS</button>
-          <button class="btn btn-blue">Download for Mac</button>
-        </div>
+      <div class="header-logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+      <div class="header-text">
+        <h1>A history of everything you copy</h1>
+        <p>
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+      </div>
+      <div class="btn">
+        <button class="btn btn-cyan">Download for iOS</button>
+        <button class="btn btn-blue">Download for Mac</button>
       </div>
     </header>
 
@@ -101,10 +103,7 @@ Use anything in your knowledge about html css as much as you have.
         </div>
 
         <div class="snippets-cards">
-          <img
-            src="images/image-computer.png"
-            alt="image of dekstop computer"
-          />
+          <img src="images/image-computer.png" alt="" />
           <div class="snippets-cards-list">
             <div class="card">
               <h3>Quick Search</h3>
@@ -138,10 +137,7 @@ Use anything in your knowledge about html css as much as you have.
         </div>
 
         <div class="access-device">
-          <img
-            src="images/image-devices.png"
-            alt="image divice of tablet and phone"
-          />
+          <img src="images/image-devices.png" alt="" />
         </div>
       </div>
 
@@ -213,59 +209,57 @@ Use anything in your knowledge about html css as much as you have.
     </main>
 
     <footer>
-      <div class="footer">
-        <div class="footer-logo">
-          <img src="images/logo.svg" alt="logo" />
-        </div>
+      <div class="footer-logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
 
-        <div class="footer-nav">
-          <div class="nav">
-            <ul>
-              <li>FAQs</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-          <div class="nav">
-            <ul>
-              <li>Privacy Policy</li>
-              <li>Press Kit</li>
-            </ul>
-          </div>
-          <div class="nav">
-            <ul>
-              <li>Install Guide</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="footer-sosmed">
+      <div class="footer-nav">
+        <div class="nav">
           <ul>
-            <li>
-              <img src="images/icon-facebook.svg" alt="" />
-            </li>
-            <li>
-              <img src="images/icon-twitter.svg" alt="" />
-            </li>
-            <li>
-              <img src="images/icon-instagram.svg" alt="" />
-            </li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Press Kit</a></li>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="">Install Guide</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor.
-        </a>
-        Coded by
-        <a
-          href="https://walmanjm.github.io/Frontend_Mentor_Challenge"
-          target="_blank"
-          >walmanjm.
-        </a>
+      <div class="footer-sosmed">
+        <ul>
+          <li>
+            <a href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
       </div>
     </footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor.
+      </a>
+      <br />
+      Coded by
+      <a
+        href="https://walmanjm.github.io/Frontend_Mentor_Challenge"
+        target="_blank"
+        >walmanjm.
+      </a>
+    </div>
   </body>
 </html>
 ```
@@ -300,7 +294,6 @@ h3 {
 }
 p {
   color: var(--grayish_blue);
-  font-size: smaller;
   padding-bottom: 2rem;
   line-height: 1.5rem;
   text-align: center;
@@ -325,23 +318,27 @@ header {
   padding: 0.8rem 2rem;
   border: none;
   border-radius: 50rem;
-  margin: 0 0.5rem;
+  margin: 0rem 1rem 3rem 0;
   color: #ffffff;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: smaller;
-  margin-bottom: 3rem;
   text-align: center;
-}
-.btn:hover {
-  cursor: pointer;
 }
 .btn-cyan {
   background: var(--strong_cyan);
   box-shadow: 0.2rem 0.2rem hsl(171, 67%, 39%);
 }
+.btn-cyan:hover {
+  cursor: pointer;
+  background: hsl(171, 67%, 39%);
+}
 .btn-blue {
   background: var(--light_blue);
   box-shadow: 0.2rem 0.2rem hsl(233, 72%, 62%);
+}
+.btn-blue:hover {
+  cursor: pointer;
+  background: hsl(233, 72%, 62%);
 }
 
 /* snippets */
@@ -413,7 +410,7 @@ header {
 }
 
 /* footer */
-.footer {
+footer {
   background-color: hsl(0, 0%, 97%);
   display: flex;
   flex-direction: row;
@@ -426,22 +423,17 @@ header {
 .footer-logo {
   padding: 0 0 0 10rem;
 }
+
 .footer-nav {
   display: flex;
 }
 .footer-nav ul {
   list-style: none;
-  color: hsl(202, 7%, 55%);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .footer-nav li {
   margin: 0 0 1rem 6rem;
-  cursor: pointer;
-}
-.footer-nav li:hover {
-  color: hsl(171, 66%, 44%);
+
+  font-size: smaller;
 }
 .footer-sosmed {
   margin-left: 15rem;
@@ -462,20 +454,40 @@ header {
   height: 1.2rem;
 }
 
+i {
+  font-size: 1.5rem;
+  color: var(--dark_grayish_blue);
+}
+i:hover {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--strong_cyan);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark_grayish_blue);
+}
+a:hover {
+  cursor: pointer;
+  color: var(--strong_cyan);
+}
+
 /* attribution */
 .attribution {
   background-color: hsl(0, 0%, 97%);
+  color: var(--dark_grayish_blue);
   font-size: 0.8rem;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark_grayish_blue);
   text-decoration: none;
 }
 .attribution a:hover {
-  color: hsl(219, 29%, 14%);
+  color: var(--strong_cyan);
   text-decoration: underline;
 }
 
@@ -484,18 +496,30 @@ header {
   h2,
   h3,
   p {
-    max-width: 20rem;
+    max-width: 18rem;
     display: block;
     margin: 0 auto;
   }
-
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
   header {
     padding-top: 2rem;
     background: url("images/bg-header-mobile.png") center top no-repeat;
-    background: cover;
+    background-size: cover;
+    padding-bottom: 4rem;
   }
-
-  .footer,
+  .btn {
+    margin: 0rem 0.5rem 1rem 0;
+    padding: 0.8rem 4rem;
+  }
+  footer,
   .footer-sosmed,
   .footer-nav,
   .logo-list,
@@ -509,8 +533,12 @@ header {
   }
   .snippets-cards img,
   .access-device img {
-    max-width: 20rem;
+    max-width: 18rem;
     display: block;
+    margin: 0 auto;
+  }
+  .snippets-cards-list {
+    padding-top: 4rem;
     margin: 0 auto;
   }
   .snippets-cards-list h3,
@@ -520,23 +548,23 @@ header {
   .logo-list img {
     margin: 2rem 0rem;
   }
+  .cipboard-download-text {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   .footer-logo,
   .footer-nav li,
   .footer-sosmed li {
-    padding: 0;
     margin: 0 auto;
     text-align: center;
-  }
-  .footer-nav li,
-  .footer-sosmed li {
     padding: 1rem;
-  }
-  .footer-logo {
-    padding: 2rem 0 0 0;
   }
   .footer-sosmed img {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .footer-logo {
+    padding-top: 3rem;
   }
 }
 ```
