@@ -13,8 +13,8 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/solution/solution.jpeg?raw=true)
 
 ## 3. Clipboard_Landing_Page
-- [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/eda9a087a2cb5b01e8ffbdf33aade3c3bf94c2e6/Clipboard_Landing_Page/README.md)
-- [Frontend_Mentor_Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Clipboard_Landing_Page/index.html)
+- [Frontend_MentorChallenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/bdcab443426c84db7e3a9dfd708cd76525b69ef6/Clipboard_Landing_Page/README.md)
+- [Frontend_MentorChallenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Clipboard_Landing_Page/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Clipboard_Landing_Page/solution/solution.jpeg?raw=true)
 
