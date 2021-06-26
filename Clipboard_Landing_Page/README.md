@@ -356,7 +356,7 @@ header {
 .snippets-cards-list {
   padding-top: 3rem;
   padding-left: 5rem;
-  width: 25rem;
+  width: 18rem;
 }
 .snippets-cards-list h3,
 .snippets-cards-list p {
@@ -390,8 +390,8 @@ header {
   text-align: center;
 }
 .workflow-list div {
-  width: 25rem;
-  padding: 2rem 2rem 0 2rem;
+  width: 18rem;
+  padding: 2rem 0rem 2rem 0rem;
 }
 .workflow-list h3 {
   margin-top: 1rem;
@@ -567,6 +567,7 @@ a:hover {
     padding-top: 3rem;
   }
 }
+
 ```
 ### Continued development
 
