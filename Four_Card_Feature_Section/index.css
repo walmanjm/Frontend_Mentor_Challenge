@@ -90,14 +90,27 @@ footer {
 .card1 {
   border-top: 0.3rem solid var(--cyan);
 }
+.card1:hover {
+  box-shadow: 0rem 0.5rem 1rem var(--cyan);
+}
 .card2 {
   border-top: 0.3rem solid var(--red);
+}
+.card2:hover {
+  box-shadow: 0rem 0.5rem 1rem var(--red);
 }
 .card3 {
   border-top: 0.3rem solid var(--orange);
 }
+.card3:hover {
+  box-shadow: 0rem 0.5rem 1rem var(--orange);
+}
+
 .card4 {
   border-top: 0.3rem solid var(--blue);
+}
+.card4:hover {
+  box-shadow: 0rem 0.5rem 1rem var(--blue);
 }
 
 .card h1 {
@@ -114,6 +127,10 @@ footer {
   height: 3rem;
   position: relative;
   left: 80%;
+}
+.card img:hover {
+  width: 2.9rem;
+  height: 2.9rem;
 }
 
 @media screen and (max-width: 768px) {
