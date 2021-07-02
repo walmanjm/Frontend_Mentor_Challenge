@@ -1,10 +1,10 @@
 # Welcome! 👋
 ## This is some solution i made for [Frontend Mentor](https://www.frontendmentor.io) challenges,
 ## 1. Single_Price_Grid_Component
-- [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/3332664cddf1c08dad7002528a194a7f34c610a7/Single_Price_Grid_Component/README.md)
+- [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/8d8493857e03b6989aaa0cdf8e9f1d4a8071dd3d/Single_Price_Grid_Component/README.md)
 - [Single_Price_Grid_Component Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Single_Price_Grid_Component/index.html)
 
-- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single_Price_Grid_Component/solution/solution.jpeg?raw=true)
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single_Price_Grid_Component/solution/solutionu.jpeg?raw=true)
 
 ## 2. Testimonials_Grid_Section
 - [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/f5104cc4e9e73f6086695d7afc171d0946d8c7aa/Testimonials_Grid_Section/README.md)
@@ -38,7 +38,7 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution2.jpeg?raw=true)
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution3.jpeg?raw=true)
 
-## 7. ...
+## 7. ..
 
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.
