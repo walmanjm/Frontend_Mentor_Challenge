@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --Dark_cyan: hsl(185, 75%, 39%);
+  --Very_dark_desaturated_blue: hsl(229, 23%, 23%);
+  --Dark_grayish_blue: hsl(227, 10%, 46%);
+  --Dark_gray: hsl(0, 0%, 59%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 18px;
+  max-width: 1440;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--Dark_cyan);
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -40rem top -55rem, right -35rem bottom -60rem;
+  background-size: cover, cover;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 9rem 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--Very_dark_desaturated_blue);
+}
+.victor h1 {
+  margin-top: 0.5rem;
+}
+.likes h1 {
+  margin-top: 1rem;
+}
+span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--Very_dark_desaturated_blue);
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--Dark_grayish_blue);
+}
+.victor p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.likes p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.bgpattern img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.victor img {
+  border: 0.5rem solid #fff;
+  border-radius: 50rem;
+  margin-top: -18%;
+}
+.likes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+  border-top: 0.1rem solid var(--Dark_gray);
+}
+.attribution {
+  margin: 1rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: left -25rem top -25rem, right -25rem bottom -25rem;
+  }
+  .container {
+    margin: 6rem 0;
+  }
+}
