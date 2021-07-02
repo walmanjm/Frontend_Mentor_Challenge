@@ -48,136 +48,139 @@ Use anything in your knowledge about html css as much as you have.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | Single Price Grid Component</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="col col1">
-        <h1 class="community">Join our community</h1>
-        <p class="guarantee">30-day, hassle-free money back guarantee</p>
-        <p class="access">
-          Gain access to our full library of tutorial along with expert code
-          reviews. <br />Perfect for any developers who are serious about honing
-          their skills.
-        </p>
-      </div>
-      <div class="col col2">
-        <h1 class="subs">Monthly Subscription</h1>
-        <p class="permonth"><strong>&dollar;29</strong> per month</p>
-        <p class="perday">Full access for less than &dollar;1 a day</p>
-        <button>Sign Up</button>
-      </div>
-      <div class="col col3">
-        <h1 class="whyus">Why Us</h1>
-        <p class="expert">
-          Tutorial by industrial experts <br />Peer &amp; expert code review
-          <br />Coding exercises <br />Access to our GitHub repos
-          <br />Community forum <br />Flashcard decks <br />New Videos every
-          week
-        </p>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="index.css" />
+</head>
 
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor.
-        </a>
-        <br />
-        Coded by
-        <a
-          href="https://walmanjm.github.io/Frontend_Mentor_Challenge"
-          target="_blank"
-          >walmanjm.
-        </a>
-      </div>
+<body>
+  <div class="container">
+    <div class="col col1">
+      <h1 class="community">Join our community</h1>
+      <p class="guarantee">30-day, hassle-free money back guarantee</p>
+      <p class="access">
+        Gain access to our full library of tutorial along with expert code
+        reviews. <br />Perfect for any developers who are serious about honing
+        their skills.
+      </p>
     </div>
-  </body>
+    <div class="col col2">
+      <h1 class="subs">Monthly Subscription</h1>
+      <p class="permonth"><strong>&dollar;29</strong> per month</p>
+      <p class="perday">Full access for less than &dollar;1 a day</p>
+      <button>Sign Up</button>
+    </div>
+    <div class="col col3">
+      <h1 class="whyus">Why Us</h1>
+      <ul class="expert">
+        <li>Tutorial by industrial experts</li>
+        <li>Peer &amp; expert code review</li>
+        <li>Coding exercises</li>
+        <li>Access to our GitHub repos</li>
+        <li>Community forum</li>
+        <li>Flashcard decks</li>
+        <li>New Videos every week</li>
+      </ul>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.
+      </a>
+      <br />
+      Coded by
+      <a href="https://walmanjm.github.io/Frontend_Mentor_Challenge" target="_blank">walmanjm.
+      </a>
+    </div>
+  </div>
+</body>
+
 </html>
 ```
 #### css
 ```css
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright_Yellow: hsl(71, 73%, 54%);
+  --Light_Gray: hsl(204, 43%, 93%);
+  --Grayish_Blue: hsl(218, 22%, 67%);
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-html {
-  font-size: 16px;
-}
 body {
-  background-color: hsl(210, 46%, 95%);
+  background-color: var(--Light_Gray);
   font-family: "Karla", sans-serif;
+  font-size: 16px;
   max-width: 1440px;
-  margin: 0 auto;
-  padding: 6rem;
   display: grid;
   place-items: center;
 }
 .container {
-  width: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr;
+  grid-template-rows: repeat (3, auto);
+  width: auto;
+  padding: 6rem 0;
 }
 .col1 {
   padding: 2rem;
   grid-column: 1 / 3;
+  grid-row: 1 / 2;
   background-color: hsl(0, 0%, 100%);
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 .col2 {
   padding: 2rem;
-  grid-column: 1;
-  background-color: hsl(179, 62%, 43%);
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: var(--Cyan);
   border-bottom-left-radius: 0.5rem;
 }
 .col3 {
   padding: 2rem;
-  grid-column: 2;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   background-color: hsl(179, 58%, 50%);
   border-bottom-right-radius: 0.5rem;
 }
 
 .community {
-  color: hsl(179, 62%, 43%);
+  color: var(--Cyan);
   font-size: 1.3rem;
   font-weight: 700;
   padding-bottom: 1rem;
 }
 .guarantee {
-  color: hsl(71, 73%, 54%);
+  color: var(--Bright_Yellow);
   font-size: 1rem;
   font-weight: 700;
   padding-bottom: 0.5rem;
 }
 .access {
-  color: hsl(218, 22%, 67%);
+  color: var(--Grayish_Blue);
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.3rem;
 }
 
 .subs {
-  color: hsl(204, 43%, 93%);
+  color: var(--Light_Gray);
   font-size: 1rem;
   font-weight: 700;
   padding-bottom: 1rem;
 }
 .permonth {
-  color: hsl(204, 43%, 93%);
+  color: var(--Light_Gray);
   font-size: 0.9rem;
   font-weight: 400;
   padding-bottom: 0.5rem;
@@ -187,7 +190,7 @@ strong {
   padding-right: 0.5rem;
 }
 .perday {
-  color: hsl(204, 43%, 93%);
+  color: var(--Light_Gray);
   font-size: 0.9rem;
   font-weight: 400;
   padding-bottom: 2rem;
@@ -197,53 +200,58 @@ button {
   height: 2.5rem;
   border: none;
   border-radius: 0.3rem;
-  background-color: hsl(71, 73%, 54%);
-  color: hsl(204, 43%, 93%);
+  background-color: var(--Bright_Yellow);
+  color: var(--Light_Gray);
 }
 
 .whyus {
-  color: hsl(204, 43%, 93%);
+  color: var(--Light_Gray);
   font-size: 1rem;
   font-weight: 700;
   padding-bottom: 1rem;
 }
 .expert {
-  color: hsl(204, 43%, 93%);
-  font-size: 0.9rem;
+  color: var(--Light_Gray);
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.2rem;
 }
+ul {
+  list-style: none;
+}
 .attribution {
-  color: hsl(218, 22%, 67%);
+  color: var(--Grayish_Blue);
   font-size: 0.9rem;
   text-align: left;
   padding-top: 1rem;
 }
 .attribution a {
-  color: hsl(218, 22%, 67%);
+  color: var(--Grayish_Blue);
   text-decoration: none;
 }
 .attribution a:hover {
-  color: hsl(179, 62%, 43%);
+  color: var(--Cyan);
   text-decoration: underline;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 575px) {
-    body {
-    padding: 2rem 2rem;
-  }
+@media (max-width: 768px) {
   .container {
+    grid-template-rows: repeat(3, 1fr) auto;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    padding: 4rem 2rem;
+    margin: 0 auto;
   }
   .col1 {
+    grid-row: 1;
     grid-column: 1;
   }
   .col2 {
+    grid-row: 2;
     grid-column: 1;
     border-bottom-left-radius: 0;
   }
   .col3 {
+    grid-row: 3;
     grid-column: 1;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
