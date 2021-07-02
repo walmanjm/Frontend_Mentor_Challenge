@@ -38,7 +38,13 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution2.jpeg?raw=true)
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution3.jpeg?raw=true)
 
-## 7. ..
+## 7. Profile_Card_Component
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/cd08144721232dbef5f72d078540dc0a5428cdab/Profile_Card_Component/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Profile_Card_Component/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Profile_Card_Component/solution/solution.jpeg?raw=true)
+
+## 8. ..
 
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.
