@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Frontend Mentor | Huddle landing page with single introductory section](https://walmanjm.github.io/Frontend_Mentor_Challenge/Huddle_Landing_Page_With_Single_Introductory_Section/index.html)
+- Live Site URL: [Frontend Mentor | Social proof section](https://walmanjm.github.io/Frontend_Mentor_Challenge/Social_Proof_Section/index.html)
 
 ## My process
 
