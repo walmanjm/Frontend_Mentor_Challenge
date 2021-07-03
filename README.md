@@ -44,8 +44,13 @@
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Profile_Card_Component/solution/solution.jpeg?raw=true)
 
-## 8. ..
+## 8. Social_Proof_Section
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/09834952f0e01534735c921decfd916fe883839d/Social_Proof_Section/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Social_Proof_Section/index.html)
 
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Social_Proof_Section/solution/solution.jpeg?raw=true)
+
+## 9. ...
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.
   
