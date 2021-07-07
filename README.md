@@ -56,7 +56,14 @@
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/3_Column_Preview_Card_Component/solution/solution.jpeg?raw=true)
 
-## 10. ...
+## 10. Huddle_Landing_Page_With_Alternating_Feature_Blocks
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/7231cc0fd71caf051501a039516589386be365c1/Huddle_Landing_Page_With_Alternating_Feature_Blocks/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Huddle_Landing_Page_With_Alternating_Feature_Blocks/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Huddle_Landing_Page_With_Alternating_Feature_Blocks/solution/solution.jpeg?raw=true)
+
+
+## 11. ...
 
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor.
