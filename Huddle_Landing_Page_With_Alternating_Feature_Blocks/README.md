@@ -524,4 +524,4 @@ this is knew to me but i like it, im still learning and will continue learning
 
 ## Acknowledgments
 
-looking forward for anyone to help..
+looking forward for anyone to help...
