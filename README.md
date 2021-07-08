@@ -31,12 +31,12 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Huddle_Landing_Page_With_Single_Introductory_Section/solution/solution.jpeg?raw=true)
 
 ## 6. Fylo_Landing_Page_With_Two_Column_Layout
-- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/053be7123ef854a112e979eacc64cefafda1bce1/Fylo_Landing_Page_With_Two_Column_Layout/README.md)
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/96f7b115a04ce873be37c092dc04a70adca9f065/Fylo_Landing_Page_With_Two_Column_Layout/README.md)
 - [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Fylo_Landing_Page_With_Two_Column_Layout/index.html)
 
-- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution1.jpeg?raw=true)
-- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution2.jpeg?raw=true)
-- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solution3.jpeg?raw=true)
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solutionupdate1.jpeg?raw=true)
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solutionupdate2.jpeg?raw=true)
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solutionupdate3.jpeg?raw=true)
 
 ## 7. Profile_Card_Component
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/cd08144721232dbef5f72d078540dc0a5428cdab/Profile_Card_Component/README.md)
