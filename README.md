@@ -1,10 +1,12 @@
 # Welcome! 👋
 ## This is some solution i made for [Frontend Mentor](https://www.frontendmentor.io) challenges,
+
 ## 1. Single_Price_Grid_Component
 - [Single_Price_Grid_Component Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/8d8493857e03b6989aaa0cdf8e9f1d4a8071dd3d/Single_Price_Grid_Component/README.md)
 - [Single_Price_Grid_Component Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Single_Price_Grid_Component/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Single_Price_Grid_Component/solution/solutionu.jpeg?raw=true)
+
 
 ## 2. Testimonials_Grid_Section
 - [Frontend_Mentor_Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/f5104cc4e9e73f6086695d7afc171d0946d8c7aa/Testimonials_Grid_Section/README.md)
@@ -12,11 +14,13 @@
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Testimonials_Grid_Section/solution/solutionu.jpeg?raw=true)
 
+
 ## 3. Clipboard_Landing_Page
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/bdcab443426c84db7e3a9dfd708cd76525b69ef6/Clipboard_Landing_Page/README.md)
 - [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Clipboard_Landing_Page/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Clipboard_Landing_Page/solution/solution.jpeg?raw=true)
+
 
 ## 4. Four_Card_Feature_Section
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/36457cc5418a4bd6a1b8e5a64678b75c8d1c209a/Four_Card_Feature_Section/README.md)
@@ -24,11 +28,13 @@
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Four_Card_Feature_Section/solution/solution.jpeg?raw=true)
 
+
 ## 5. Huddle_Landing_Page_With_Single_Introductory_Section
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/d63e8008207894b23fc9d087090f582be3ad61a1/Huddle_Landing_Page_With_Single_Introductory_Section/README.md)
 - [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Huddle_Landing_Page_With_Single_Introductory_Section/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Huddle_Landing_Page_With_Single_Introductory_Section/solution/solution.jpeg?raw=true)
+
 
 ## 6. Fylo_Landing_Page_With_Two_Column_Layout
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/96f7b115a04ce873be37c092dc04a70adca9f065/Fylo_Landing_Page_With_Two_Column_Layout/README.md)
@@ -37,6 +43,7 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solutionupdate1.jpeg?raw=true)
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solutionupdate2.jpeg?raw=true)
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Landing_Page_With_Two_Column_Layout/solution/solutionupdate3.jpeg?raw=true)
+
 
 ## 7. Profile_Card_Component
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/cd08144721232dbef5f72d078540dc0a5428cdab/Profile_Card_Component/README.md)
@@ -50,11 +57,13 @@
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Social_Proof_Section/solution/solution.jpeg?raw=true)
 
+
 ## 9. 3_Column_Preview_Card_Component
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/fb5462dae782beb7fad165ed408bd275710eb724/3_Column_Preview_Card_Component/README.md)
 - [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/3_Column_Preview_Card_Component/index.html)
 
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/3_Column_Preview_Card_Component/solution/solution.jpeg?raw=true)
+
 
 ## 10. Huddle_Landing_Page_With_Alternating_Feature_Blocks
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/7231cc0fd71caf051501a039516589386be365c1/Huddle_Landing_Page_With_Alternating_Feature_Blocks/README.md)
@@ -63,7 +72,15 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Huddle_Landing_Page_With_Alternating_Feature_Blocks/solution/solution.jpeg?raw=true)
 
 
-## 11. ...
+## 11. Stats_Preview_Card_Component
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/c2345f0e2bc3f9db4dc87a83eb30ea724b8121b2/Stats_Preview_Card_Component/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Stats_Preview_Card_Component/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Stats_Preview_Card_Component/solution/solution.jpeg?raw=true)
+
+
+## 12. ...
+
 
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor..
