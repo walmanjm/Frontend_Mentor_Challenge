@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+:root {
+  --mainbackground: hsl(233, 47%, 7%);
+  --cardbackground: hsl(244, 38%, 16%);
+  --softviolet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --mainparagraph: hsla(0, 0%, 100%, 0.75);
+  --statheadings: hsla(0, 0%, 100%, 0.6);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+  font-size: 15px;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  background-color: var(--mainbackground);
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 1rem;
+}
+.card-left {
+  display: grid;
+  background: var(--cardbackground);
+  padding: 4rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.card-right {
+  display: grid;
+  background-color: var(--softviolet);
+  background-image: url(images/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.card-right:hover {
+  background-blend-mode: normal;
+}
+.heading h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  width: 22rem;
+}
+span {
+  color: var(--softviolet);
+}
+span:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+.heading p {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--mainparagraph);
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  width: 22rem;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 4rem;
+}
+.stat h2 {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+}
+.stat h2:hover {
+  color: var(--softviolet);
+  cursor: pointer;
+}
+.stat p {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--statheadings);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.attribution {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--softviolet);
+  font-size: smaller;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.attribution a {
+  color: var(--statheadings);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: var(--softviolet);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem auto;
+    padding: 4rem 2rem 2rem 2rem;
+  }
+  .card-right {
+    grid-column: 1;
+    grid-row: 1/2;
+    background-image: url(images/image-header-mobile.jpg);
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0;
+  }
+  .card-left {
+    grid-column: 1;
+    grid-row: 2/3;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .stats {
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .stat {
+    padding-top: 2rem;
+  }
+  .heading h1 {
+    width: auto;
+  }
+  .heading p {
+    width: auto;
+  }
+  .card-left {
+    padding: 1rem;
+  }
+}
