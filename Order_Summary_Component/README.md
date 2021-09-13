@@ -61,10 +61,10 @@ Use anything in your knowledge about html css as much as you have.
 </head>
 
 <body>
-  <div class="container">
+  <main class="container">
     <img src="images/illustration-hero.svg" alt="#">
     <div class="order">
-      <h2>Order Summary</h2>
+      <h1>Order Summary</h1>
       <p>You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!</p>
     </div>
@@ -72,7 +72,7 @@ Use anything in your knowledge about html css as much as you have.
     <div class="plan">
       <img src="images/icon-music.svg" alt="#">
       <div class="plandetail">
-        <h4>Annual Plan</h4>
+        <h2>Annual Plan</h2>
         <p> $59.99/year</p>
       </div>
       <a href="#" class="change">Change</a>
@@ -81,11 +81,11 @@ Use anything in your knowledge about html css as much as you have.
     <a href="#" class="payment">Proceed to Payment</a>
     <a href="#" class="cancel">Cancel Order</a>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
       Coded by <a href="https://walmanjm.github.io/Frontend_Mentor_Challenge" target="_blank">walmanjm.</a>
-    </div>
-  </div>
+    </footer>
+  </main>
 </body>
 
 </html>
@@ -138,9 +138,10 @@ body {
   max-width: 20rem;
   margin-top: 2rem;
 }
-.order h2 {
+.order h1 {
   margin-bottom: 1rem;
   color: var(--Darkblue);
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .order p {
@@ -158,8 +159,9 @@ body {
 .plan img {
   padding-right: 1rem;
 }
-.plandetail h4 {
+.plandetail h2 {
   color: var(--Darkblue);
+  font-size: 1rem;
 }
 .plandetail p {
   color: var(--Desaturatedblue);
