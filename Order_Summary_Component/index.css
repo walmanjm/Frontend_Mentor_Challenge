@@ -44,9 +44,10 @@ body {
   max-width: 20rem;
   margin-top: 2rem;
 }
-.order h2 {
+.order h1 {
   margin-bottom: 1rem;
   color: var(--Darkblue);
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .order p {
@@ -64,8 +65,9 @@ body {
 .plan img {
   padding-right: 1rem;
 }
-.plandetail h4 {
+.plandetail h2 {
   color: var(--Darkblue);
+  font-size: 1rem;
 }
 .plandetail p {
   color: var(--Desaturatedblue);
