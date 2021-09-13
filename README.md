@@ -79,7 +79,16 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Stats_Preview_Card_Component/solution/solution.jpeg?raw=true)
 
 
-## 12. ...
+## 12. Order_Summary_Component
+
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/e22b76526cd9c530e31af1c8b05dd1cb8c746e0d/Order_Summary_Component/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Order_Summary_Component/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Order_Summary_Component/solution/desktop.jpeg?raw=true)
+
+
+## 13. ...
+
 
 
 
