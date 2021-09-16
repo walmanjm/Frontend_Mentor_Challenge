@@ -87,10 +87,15 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Order_Summary_Component/solution/desktop.jpeg?raw=true)
 
 
-## 13. ...
+## 13. Fylo_Data_Storage_Component
+
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/9f5564e6b6be48054480d9efcec17edf7868aef1/Fylo_Data_Storage_Component/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Fylo_Data_Storage_Component/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Data_Storage_Component/solution/desktop.PNG?raw=true)
 
 
-
+## 14. ...
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor..
   
