@@ -93,10 +93,10 @@ Use anything in your knowledge about html css as much as you have.
     </div>
   </main>
 
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
     Coded by <a href="https://walmanjm.github.io/Frontend_Mentor_Challenge" target="_blank">walmanjm.</a>
-  </div>
+  </footer>
 </body>
 
 </html>
