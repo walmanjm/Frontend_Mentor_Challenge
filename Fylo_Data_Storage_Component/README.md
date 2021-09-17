@@ -62,7 +62,7 @@ Use anything in your knowledge about html css as much as you have.
 </head>
 
 <body>
-  <main>
+  <main class="wrapper">
     <div class="folder">
       <img class="folder-logo" src="images/logo.svg" alt="#">
       <div class="folder-item">
@@ -133,7 +133,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
 }
-main {
+.wrapper {
   display: grid;
   grid-template-columns: auto auto;
   align-items: flex-end;
@@ -143,14 +143,14 @@ main {
 .folder {
   background-color: var(--DarkBlue);
   padding: 2rem 6rem 2rem 2rem;
-  border-radius: 0.5rem 4rem 0.5rem 0.5rem;
+  border-radius: 0.5rem 6rem 0.5rem 0.5rem;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   gap: 1rem;
   align-items: center;
-  height: 10rem;
-  width: 16rem;
+  height: 12rem;
+  width: 20rem;
 }
 .folder-logo {
   width: auto;
@@ -159,14 +159,16 @@ main {
 .folder-item {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.5rem;
 }
 .folder-item a {
   background-color: var(--VeryDarkBlue);
-  padding: 0.5rem 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   display: grid;
   place-items: center;
+  transition: all 1.5s;
 }
 .folder-item a:hover {
   background-color: hsl(335, 100%, 65%);
@@ -183,7 +185,7 @@ main {
   align-items: center;
   background-color: var(--DarkBlue);
   height: 8rem;
-  width: 26rem;
+  width: 32rem;
 }
 .gb-used {
   color: var(--PaleBlue);
@@ -287,13 +289,16 @@ main {
     background-image: url(images/bg-mobile.png);
     background-size: cover;
   }
-  main {
+  .wrapper {
     grid-template-columns: auto;
     row-gap: 1rem;
   }
   .folder,
   .progress {
-    width: 18rem;
+    width: 19rem;
+  }
+  .folder {
+    height: 10.5rem;
   }
   .progress {
     height: 9rem;
@@ -302,10 +307,10 @@ main {
     width: auto;
   }
   .gb-left {
-    top: 8rem;
-    right: 4.5rem;
+    top: 7.5rem;
+    right: 5rem;
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
   }
   .gb-left ::after {
     display: none;
@@ -317,6 +322,7 @@ main {
     margin-top: 6rem;
   }
 }
+
 ```
 ### Continued development
 
