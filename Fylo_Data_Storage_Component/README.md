@@ -326,7 +326,7 @@ body {
 ```
 ### Continued development
 
-this is knew to me but i like it, im still learning and will continue learning 
+this is knew to me but i like it, im stil learning and will continue learning 
 
 ### Useful resources
 
