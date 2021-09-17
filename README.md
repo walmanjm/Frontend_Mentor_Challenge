@@ -95,7 +95,7 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Data_Storage_Component/solution/desktop.PNG?raw=true)
 
 
-## 14. ...
+## 14. ....
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor..
   
