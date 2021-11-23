@@ -95,7 +95,17 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Fylo_Data_Storage_Component/solution/desktop.PNG?raw=true)
 
 
-## 14. ....
+## 14. NTF_Preview_Card_Component
+
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/2034e15bb1f551e9aed5bf5b8e098e633dde8061/NTF_Preview_Card_Component/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/NTF_Preview_Card_Component/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/NTF_Preview_Card_Component/solution/desktop.png?raw=true)
+
+
+## 15. ...
+
+
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor..
   
