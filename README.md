@@ -103,8 +103,15 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/NTF_Preview_Card_Component/solution/desktop.png?raw=true)
 
 
-## 15. ...
+## 15. Article_Preview_Component
 
+- [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/0cc2b5a10b82c1a068ccd78b0c053ea9b814846b/Article_Preview_Component/README.md)
+- [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Article_Preview_Component/index.html)
+
+- ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Article_Preview_Component/solution/desktop.png?raw=true)
+
+
+## 16. ...
 
 
 Thanks for checking out this front-end coding challenge. Read more below from Frontend Mentor..
