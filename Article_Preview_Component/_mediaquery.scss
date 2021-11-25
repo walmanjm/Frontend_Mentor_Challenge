@@ -1,0 +1,63 @@
+@media (max-width:768px) {
+    body {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .leftbox {
+        border-radius: 0;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+
+        img {
+            height: 12rem;
+            width: 100%;
+        }
+    }
+
+    .rightbox {
+        padding: 1.5rem 1.5rem .5rem 1.5rem;
+        overflow: hidden;
+
+        .rightbox-text {
+
+            h1 {
+                font-size: 1rem;
+                width: 16rem;
+            }
+
+            p {
+                margin: .9rem 0;
+                width: 16rem;
+            }
+        }
+
+        .profilesosmed {
+            z-index: 1;
+        }
+
+        .sosmed.active {
+            height: 4rem;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 0;
+            border-bottom-right-radius: .5rem;
+            border-bottom-left-radius: .5rem;
+
+            img {
+                height: 1.2rem;
+                width: auto;
+            }
+        }
+
+        .sosmed ::after {
+            display: none;
+        }
+    }
+}
