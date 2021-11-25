@@ -1,0 +1,148 @@
+@import "starter";
+
+body {
+    max-width: 1440px;
+    font-size: 15px;
+    height: 100vh;
+    width: fit-content;
+    font-family: "Spartan", sans-serif;
+    background: url(images/bg-pattern-top-desktop.svg) left top no-repeat,
+        url(images/bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 2rem;
+    margin: 6rem 6rem 1rem;
+}
+
+.rone {
+    display: grid;
+    grid-template-columns: .75fr .55fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+
+    .news {
+        .news-title {
+            color: $VeryDarkMagenta;
+            font-size: 3rem;
+            font-weight: 700;
+            width: 25rem;
+        }
+
+        .news-subtitle {
+            color: $DarkGrayishMagenta;
+            font-weight: 500;
+            line-height: 1.5rem;
+            width: 30rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .rated {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .reviews {
+            align-self: flex-start;
+        }
+
+        .report {
+            align-self: center;
+        }
+
+        .besttech {
+            align-self: flex-end;
+        }
+
+        .star {
+            color: $VeryDarkMagenta;
+            background-color: $LightGrayishMagenta;
+            font-size: 0.8rem;
+            font-weight: 700;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            width: 25rem;
+
+            span {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+.rtwo {
+    display: flex;
+    gap: 2rem;
+    height: 15rem;
+
+    .cs {
+        align-self: start;
+    }
+
+    .ir {
+        align-self: center;
+    }
+
+    .aw {
+        align-self: end;
+    }
+
+    .card {
+        background-color: $VeryDarkMagenta;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        width: 22rem;
+
+        .profil {
+            display: flex;
+            align-items: center;
+
+            img {
+                border-radius: 50rem;
+                width: auto;
+                height: 3rem;
+                margin-right: 1rem;
+            }
+
+            .pfl-name {
+                color: $LightGrayishMagenta;
+                font-size: 0.9rem;
+            }
+
+            .pfl-buyer {
+                color: $SoftPink;
+                font-size: 0.8rem;
+                margin-top: 0.2rem;
+            }
+        }
+
+        .card-quotes {
+            color: $LightGrayishMagenta;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            line-height: 1.2rem;
+        }
+    }
+}
+
+.attribution {
+    text-align: center;
+    color: $DarkGrayishMagenta;
+    font-size: smaller;
+    padding: 1rem 0;
+
+    a {
+        color: $DarkGrayishMagenta;
+
+        &:hover {
+            color: $SoftPink;
+        }
+    }
+}
+
+@import "mediaquery";
