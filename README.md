@@ -111,7 +111,7 @@
 - ![dekstop.jpeg](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/main/Article_Preview_Component/solution/desktop.png?raw=true)
 
 
-## 16. ...
+## 16. Base_Apparel_Coming_Soon
 
 - [Frontend_Mentor Challenge Solution:](https://github.com/walmanjm/Frontend_Mentor_Challenge/blob/4921708dd3942d1155663eed8f62b567e389326e/Base_Apparel_Coming_Soon/README.md)
 - [Frontend_Mentor Challenge Live Site:](https://walmanjm.github.io/Frontend_Mentor_Challenge/Base_Apparel_Coming_Soon/index.html)
