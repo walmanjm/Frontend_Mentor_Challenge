@@ -1,0 +1,46 @@
+@media (max-width:768px) {
+    body {
+        background-image: url(images/bg-intro-mobile.png);
+    }
+
+    .wrapper {
+        flex-direction: column;
+        margin: 3rem 2rem;
+        height: 100%;
+    }
+
+    .leftbox {
+        width: 100%;
+
+        h1 {
+            font-size: 1.5rem;
+            width: auto;
+            text-align: center;
+        }
+
+        p {
+            font-size: .8rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    }
+
+    .rightbox {
+        width: 100%;
+
+        .btn {
+            padding: .5rem 4rem;
+        }
+
+        form {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+
+            p {
+                font-size: .6rem;
+            }
+        }
+    }
+}

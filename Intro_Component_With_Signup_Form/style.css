@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ff7a7a;
+  background-image: url(images/bg-intro-desktop.png);
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0 8rem;
+}
+
+.leftbox {
+  width: 50%;
+  color: #fff;
+}
+
+.leftbox h1 {
+  font-size: 2.5rem;
+  width: 25rem;
+}
+
+.leftbox p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.rightbox {
+  width: 50%;
+}
+
+.rightbox .btn {
+  background-color: #6055a5;
+  color: #b9b6d3;
+  outline: none;
+  border: 1px solid #6055a5;
+  border-radius: .5rem;
+  padding: .5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  -webkit-box-shadow: 0 8px 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 2px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
+
+.rightbox .btn:hover {
+  background-color: #7e75b8;
+  border: 1px solid #7e75b8;
+  cursor: pointer;
+}
+
+.rightbox .btn span {
+  color: #fff;
+}
+
+.rightbox form {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 8px 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rightbox form .forminput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.rightbox form .forminput input {
+  height: 2.5rem;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid #b9b6d3;
+  border-radius: .25rem;
+  font-weight: 500;
+}
+
+.rightbox form .forminput input:focus {
+  border: 2px solid #b9b6d3;
+}
+
+.rightbox form .forminput .erroricon {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: .2rem;
+  top: .7rem;
+  display: none;
+}
+
+.rightbox form .forminput .errortext {
+  margin-left: auto;
+  color: #ff7a7a;
+  font-size: .7rem;
+  display: none;
+}
+
+.rightbox form button {
+  background-color: #38cc8c;
+  color: #fff;
+  outline: none;
+  border: 1px solid #38cc8c;
+  border-radius: .25rem;
+  padding: .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.rightbox form button:hover {
+  background-color: #61d6a3;
+  border: 1px solid #61d6a3;
+  cursor: pointer;
+}
+
+.rightbox form p {
+  text-align: center;
+  font-size: .5rem;
+  font-weight: 600;
+  color: #b9b6d3;
+  margin-top: 1rem;
+}
+
+.rightbox form p a {
+  text-decoration: none;
+  color: #ff7a7a;
+}
+
+.rightbox .error .forminput input {
+  border: 2px solid #ff7a7a;
+}
+
+.rightbox .error .forminput .erroricon,
+.rightbox .error .forminput .errortext {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #3e3c49;
+}
+
+.attribution a {
+  color: #3e3c49;
+}
+
+.attribution a:hover {
+  color: #b9b6d3;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(images/bg-intro-mobile.png);
+  }
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 3rem 2rem;
+    height: 100%;
+  }
+  .leftbox {
+    width: 100%;
+  }
+  .leftbox h1 {
+    font-size: 1.5rem;
+    width: auto;
+    text-align: center;
+  }
+  .leftbox p {
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .rightbox {
+    width: 100%;
+  }
+  .rightbox .btn {
+    padding: .5rem 4rem;
+  }
+  .rightbox form {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+  }
+  .rightbox form p {
+    font-size: .6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
