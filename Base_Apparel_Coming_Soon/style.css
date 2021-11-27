@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  height: 100vh;
+  font-size: 16px;
+  margin: 0 auto;
+  background-image: url(images/bg-pattern-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leftbox {
+  padding: 4rem 6rem;
+}
+
+.leftbox .logo {
+  display: block;
+  margin-bottom: 6rem;
+}
+
+.leftbox h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+}
+
+.leftbox h1 span {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+.leftbox p {
+  color: #ce9797;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+  font-weight: 400;
+  width: 28rem;
+}
+
+.leftbox form {
+  position: relative;
+}
+
+.leftbox form input {
+  background-color: transparent;
+  height: 3rem;
+  padding: 0 1rem;
+  border: 1px solid #ce9797;
+  border-radius: 5rem;
+  outline: #ce9797;
+  width: 20rem;
+}
+
+.leftbox form input::-webkit-input-placeholder {
+  color: #ce9797;
+}
+
+.leftbox form input:-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.leftbox form input::-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.leftbox form input::placeholder {
+  color: #ce9797;
+}
+
+.leftbox form button {
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  height: 3rem;
+  padding: 0 2rem;
+  border: 1px solid #ce9797;
+  border-radius: 5rem;
+  outline: #ce9797;
+  cursor: pointer;
+  position: absolute;
+  left: 16rem;
+  top: 0;
+}
+
+.leftbox form .erorricon {
+  display: none;
+  position: absolute;
+  left: 14rem;
+  top: .8rem;
+}
+
+.leftbox form .errortext {
+  display: none;
+  margin-top: .5rem;
+  padding-left: 1rem;
+  font-size: small;
+  color: #f96262;
+}
+
+.leftbox .error input {
+  border: 2px solid #f96262;
+}
+
+.leftbox .error .erorricon,
+.leftbox .error .errortext {
+  display: block;
+}
+
+.bg-mobile {
+  display: none;
+}
+
+footer {
+  color: #ce9797;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+footer a {
+  color: #ce9797;
+}
+
+footer a:hover {
+  color: #f96262;
+}
+
+@media (max-width: 768px) {
+  .leftbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .leftbox .logo {
+    margin: 2rem;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .leftbox h1 {
+    text-align: center;
+    width: auto;
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+    margin: 2rem;
+  }
+  .leftbox p {
+    text-align: center;
+    width: auto;
+    font-size: .9rem;
+    margin: 0 2rem;
+  }
+  .leftbox form {
+    margin: 2rem 0;
+  }
+  .leftbox form input {
+    height: 2.5rem;
+    width: 16rem;
+  }
+  .leftbox form button {
+    height: 2.5rem;
+    left: 12rem;
+  }
+  .leftbox form .erorricon {
+    left: 10rem;
+    top: .5rem;
+  }
+  .leftbox form .errortext {
+    padding-left: 0;
+  }
+  .bg-mobile {
+    display: block;
+  }
+  .bg-mobile img {
+    display: block;
+    height: 18rem;
+    width: 100%;
+  }
+  .rightbox {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

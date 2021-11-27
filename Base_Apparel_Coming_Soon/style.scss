@@ -1,0 +1,124 @@
+@import "starter";
+
+body {
+    max-width: 1440px;
+    height: 100vh;
+    font-size: 16px;
+    margin: 0 auto;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.leftbox {
+    padding: 4rem 6rem;
+
+    .logo {
+        display: block;
+        margin-bottom: 6rem;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 1rem;
+
+        span {
+            color: $Desaturated-Red;
+            font-weight: 300;
+        }
+    }
+
+    p {
+        color: $Desaturated-Red;
+        margin: 1rem 0;
+        line-height: 1.5rem;
+        font-weight: 400;
+        width: 28rem;
+    }
+
+    form {
+        position: relative;
+
+        input {
+            background-color: transparent;
+            height: 3rem;
+            padding: 0 1rem;
+            border: 1px solid $Desaturated-Red;
+            border-radius: 5rem;
+            outline: $Desaturated-Red;
+            width: 20rem;
+
+            &::placeholder {
+                color: $Desaturated-Red;
+            }
+        }
+
+        button {
+            background-image: $gradientpink;
+            height: 3rem;
+            padding: 0 2rem;
+            border: 1px solid $Desaturated-Red;
+            border-radius: 5rem;
+            outline: $Desaturated-Red;
+            cursor: pointer;
+            position: absolute;
+            left: 16rem;
+            top: 0;
+        }
+
+        .erorricon {
+            display: none;
+            position: absolute;
+            left: 14rem;
+            top: .8rem;
+        }
+
+        .errortext {
+            display: none;
+            margin-top: .5rem;
+            padding-left: 1rem;
+            font-size: small;
+            color: $Soft-Red;
+        }
+    }
+
+    .error {
+        input {
+            border: 2px solid $Soft-Red;
+        }
+
+        .erorricon,
+        .errortext {
+            display: block;
+        }
+    }
+}
+
+.bg-mobile {
+    display: none;
+}
+
+footer {
+    color: $Desaturated-Red;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 1rem;
+
+    a {
+        color: $Desaturated-Red;
+
+        &:hover {
+            color: $Soft-Red;
+        }
+    }
+
+}
+
+@import "mq";
